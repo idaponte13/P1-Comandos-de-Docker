@@ -56,5 +56,5 @@ Primeiro de todo faremos o punto nº10. Posteriormente faremos un `git add` para
 
 12. Cómo comprobarías que existen diferencias entre o teu repositorio local e o remote.
 
-
+Para comprobar as diferencias entre o repositorio local e remoto utilizaremos o comando `git diff origin/main`.
 
