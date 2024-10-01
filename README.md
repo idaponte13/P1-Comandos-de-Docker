@@ -5,16 +5,16 @@ Para facer este punto se ha creado dende github un repositorio público co nome 
 Para añadir un arquivo chamado readme2.md entramos na nosa carpeta có comando `cd`, posteriormente un `echo` e redireccionamos a salida ao noso ficheriro readme2.md.
 i 
 Facendo uso de VScode, Docker e a imaxe de ubuntu da práctica anterior, describe no arquivo readme.md, cun formato claro, os pasos e comandos para:
-1. Descargar e comprobar que unha imaxe está no teu equipo
+**1. Descargar e comprobar que unha imaxe está no teu equipo**
 
 No meus caso quixen descargar a imaxe nginx, para realizalo na terminal de VSCode utilicei o comando `docker pull nginx`.
 Posteriormente para a comprobación das novas imaxes o comando é `docker images`. 
 
-2. Crear un contenedor sen nome, queda arrincado?, cómo obtés o nome?
+**2. Crear un contenedor sen nome, queda arrincado?, cómo obtés o nome?**
 
 Para crear un contenedor sen nome escribimos `docker run -d nginx` neste caso nginx xa que é a imaxe selecionada, noutro caso escribiriamos a imaxe en cuestión. Sí que queda arrincado xa que por defecto docker asiganlle un nome a cada un dos contenedores sen a necesidade de ter que darlle un anterior á creación, para obter o seu nome utilziamos o comando `docker ps -a` dende a terminal ou ven imos ao apartado de docker de VSCode e vemos o nome dado ao contenedor.
 
-3. Crea un contenedor coo nome 'u1', cómo accedes a el?
+**3. Crea un contenedor coo nome 'u1', cómo accedes a el?**
 
 Para crear un contenedor cun nome definido polo usuario añadiremos --name ao comando do punto anterior. O comando quedaría da seguinte forma `docker run -d --name u1 nginx`.
 Para acceder a este contenedor poderemos facelo de dúas formas. A primeira a través da nosa terminal executando o comando `docker exec -it u1 /bin/bash` ou por outro lado facendo click dereito sobre o noso contenedor en VSCode e seleccionando "Attach shell"
