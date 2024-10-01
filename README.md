@@ -6,9 +6,10 @@ Para añadir un arquivo chamado readme2.md entramos na nosa carpeta có comando 
 
 Facendo uso de VScode, Docker e a imaxe de ubuntu da práctica anterior, describe no arquivo readme.md, cun formato claro, os pasos e comandos para:
 
+
 **1. Descargar e comprobar que unha imaxe está no teu equipo**
 
-No meus caso quixen descargar a imaxe nginx, para realizalo na terminal de VSCode utilicei o comando `docker pull nginx`.
+No meu caso quixen descargar a imaxe nginx, para realizalo na terminal de VSCode utilicei o comando `docker pull nginx`.
 Posteriormente para a comprobación das novas imaxes o comando é `docker images`. 
 
 **2. Crear un contenedor sen nome, queda arrincado?, cómo obtés o nome?**
